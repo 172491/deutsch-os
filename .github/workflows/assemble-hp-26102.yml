@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Assemble manuscript Markdown files
+      - name: Assemble and verify manuscript Markdown files
         shell: bash
         run: |
           set -euo pipefail
@@ -21,6 +21,14 @@ jobs:
           for n in 1 2 3 4 5 6; do
             cat "$root/_chunks/v$n/"*.part > "$root/Eleanor Potter $n.md"
           done
+          printf '%s  %s\n' \
+            '331ba871247223368702384afc1f678852208b1d346e1d95fb13a07bb7140d09' "$root/Eleanor Potter 1.md" \
+            'bc622528fccf22aa3dcb71c6e3d64b940952abbe376f5fdf850530e07ba71c4d' "$root/Eleanor Potter 2.md" \
+            '57c24a918a79d27da3a5d1da54d113a5fa159f8cfe0608fef9a8b8207a07425c' "$root/Eleanor Potter 3.md" \
+            'd99c46a19aa6ffa8b59dee0c8f1319c561deec2ecb72dbc9ca4b5b45c05f99c1' "$root/Eleanor Potter 4.md" \
+            '7200141d40d56bcf0b6750532de2ea4ed56f1c6d9c9c5061ceae4d04a0d3b746' "$root/Eleanor Potter 5.md" \
+            '7c9e36812cf3c59feaf72de82e51456a7ddf42265817a6f03f98b0d7881fd931' "$root/Eleanor Potter 6.md" \
+            | sha256sum -c -
           rm -rf "$root/_chunks"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
