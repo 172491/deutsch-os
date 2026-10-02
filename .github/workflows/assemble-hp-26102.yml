@@ -3,7 +3,7 @@ name: Assemble HP 26.10.2 archive
 on:
   push:
     paths:
-      - '同人创作/HP/01_原稿/26.10.2/_payload2/READY'
+      - '同人创作/HP/01_原稿/26.10.2/_raw2/READY'
 
 permissions:
   contents: write
@@ -13,15 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Assemble, extract and verify manuscript Markdown files
+      - name: Assemble and verify manuscript Markdown files
         shell: bash
         run: |
           set -euo pipefail
           root='同人创作/HP/01_原稿/26.10.2'
-          cat "$root/_payload2/"*.b64 > /tmp/hp-all.tar.xz.b64
-          base64 -d /tmp/hp-all.tar.xz.b64 > /tmp/hp-all.tar.xz
-          printf '%s  %s\n' '59f8c66df3e3a07e086bb9df5224aba9b5df6bd75279b855e5a69cba05c46e29' '/tmp/hp-all.tar.xz' | sha256sum -c -
-          tar -xJf /tmp/hp-all.tar.xz -C "$root"
+          for n in 1 2 3 4 5 6; do
+            cat "$root/_raw2/v$n/"*.part > "$root/Eleanor Potter $n.md"
+          done
           printf '%s  %s\n' \
             '331ba871247223368702384afc1f678852208b1d346e1d95fb13a07bb7140d09' "$root/Eleanor Potter 1.md" \
             'bc622528fccf22aa3dcb71c6e3d64b940952abbe376f5fdf850530e07ba71c4d' "$root/Eleanor Potter 2.md" \
@@ -30,7 +29,7 @@ jobs:
             '7200141d40d56bcf0b6750532de2ea4ed56f1c6d9c9c5061ceae4d04a0d3b746' "$root/Eleanor Potter 5.md" \
             '7c9e36812cf3c59feaf72de82e51456a7ddf42265817a6f03f98b0d7881fd931' "$root/Eleanor Potter 6.md" \
             | sha256sum -c -
-          rm -rf "$root/_payload" "$root/_payload2" "$root/_chunks"
+          rm -rf "$root/_raw2" "$root/_payload" "$root/_payload2" "$root/_chunks"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add "$root"
