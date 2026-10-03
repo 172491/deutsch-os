@@ -2,22 +2,17 @@
 
 本目录保存人物关系、情感线、家庭关系与阵营关系材料。关系稿用于追踪人物之间如何改变彼此的选择与剧情，不等于自动确认所有讨论结论。
 
-## 当前收录
+## 当前优先版本
 
-### 人物情感线总档案
+当前人物情感线总档案统一读取：
 
-- `人物情感线总档案/三关系版.md`：早期三条核心关系版本，作为历史基线保留。
-- `人物情感线总档案/五关系版.md`：文件名沿用历史版本名，当前已扩展为八章关系档案，包括：
-  - Alexis / Eleanor × Draco
-  - Eleanor × Harry
-  - Harry × Draco
-  - Eleanor × Snape
-  - Eleanor × Sirius
-  - Eleanor × Weston 一家
-  - Eleanor × Hermione / Ron / Ginny / Luna / Neville
-  - Eleanor / Alexis × Jacob Shafiq / Shafiq 家族
+`人物情感线总档案/当前版/README.md`
 
-处理当前重修时优先读取扩展后的 `五关系版.md`；需要追溯早期表述时再读取三关系版。
+本轮已停止用“三关系版 / 五关系版 / 十关系版”等数字命名当前入口，以免新增关系后目录名继续失真。当前版以十关系 DOCX 为主干，并吸收其后在 GitHub 中新增的 Weston、Hermione / Ron / Ginny / Luna / Neville、Jacob / Shafiq 技术合作等不重复内容，以及 2026-10-03 对 Snape × Alexis 一年级关系的最新修订。
+
+## 当前关系数量
+
+当前索引共 16 条独立关系；其中 Ron、Luna、Neville 仍标记为框架待深化，不能因为已列入索引就视为六卷关系弧已经完成。
 
 ## 权威规则
 
