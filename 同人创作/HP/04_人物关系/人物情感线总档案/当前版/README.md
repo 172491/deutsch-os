@@ -29,7 +29,7 @@
 | 12 | Eleanor / Alexis × Hermione Granger | 主框架已完成 | 同龄智识伙伴、不同边界感；安全的女性友情让 Hermione 更早命名自己的感情 |
 | 13 | Eleanor / Alexis × Ron Weasley | 框架待深化 | 巫师社会现实感与日常社会判断；不只负责笑点或跟随 Harry |
 | 14 | Eleanor / Alexis × Ginny Weasley | 深化版已完成 | 从仰望、误判和救命债，到自我定义、边界与最终平视 |
-| 15 | Eleanor / Alexis × Luna Lovegood | 框架待深化 | 允许不同方式看世界；Luna 不是预言机，非主流也不等于天然真相 |
+| 15 | Eleanor / Alexis × Luna Lovegood | 主框架已完成；施工密度已明确 | 不需要完全理解也可以选择彼此；低频但稳定，尊重隐私但不对现实危险视而不见 |
 | 16 | Eleanor / Alexis × Neville Longbottom | 框架待深化 | 不把 Neville 工具化为 Eleanor 的成长教材；保留其独立家庭、能力与战争成长 |
 
 ## 文件入口
