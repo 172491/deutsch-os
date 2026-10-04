@@ -10,6 +10,7 @@
 - “朋友群”不再作为一条关系计数；Hermione、Ron、Ginny、Luna、Neville 分开列档。共享信息边界与群像原则另见 `friends-shared-framework.md`。
 - Jacob 主章保留十关系 DOCX 的私人关系弧，并补入 GitHub 后续的 Shafiq 家族 / 技术合作框架；不把两份材料重复并排保存。
 - Snape 主章已将一年级关系改为“双向知情的试探—学习循环”：Snape 从 Lily / Evans 相似与异常魔力出发验证身份；Alexis 知道风险，却因为需要变强而主动接住他的超纲教学。
+- 第五部 v1.2 对 Horcrux 处置、Draco 中止权、Dumbledore 成年责任与 Snape 知情边界的关系影响，另见 `补丁_第五部v1.2_魂器处置与知情边界.md`。
 
 ## 当前关系索引
 
@@ -51,6 +52,7 @@
 - `15.md` — Luna
 - `16.md` — Neville
 - `friends-shared-framework.md` — 五位朋友共享的信息边界与群像施工原则
+- `补丁_第五部v1.2_魂器处置与知情边界.md` — 第五部 v1.2 对 Draco / Harry / Snape / Dumbledore 关系与知情权的增量校正
 
 ## 来源与去重说明
 
