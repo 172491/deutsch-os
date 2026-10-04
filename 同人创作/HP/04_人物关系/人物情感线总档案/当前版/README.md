@@ -27,7 +27,7 @@
 | 10 | Eleanor × Hogwarts 学生 / 公众凝视 | 已完成 | 被喜欢、崇拜或憎恨都不等于被认识；群体目光争夺她的自我定义权 |
 | 11 | Eleanor / Alexis × Weston 一家 | 主框架已完成 | 两个名字都真实；家不是奖励；失去后仍要保存生活而非只剩罪责 |
 | 12 | Eleanor / Alexis × Hermione Granger | 主框架已完成 | 同龄智识伙伴、不同边界感；安全的女性友情让 Hermione 更早命名自己的感情 |
-| 13 | Eleanor / Alexis × Ron Weasley | 框架待深化 | 巫师社会现实感与日常社会判断；不只负责笑点或跟随 Harry |
+| 13 | Eleanor / Alexis × Ron Weasley | 主框架已完成；核心新增棋局伏笔 | 低亲密度但长期可信；从学院标签回到具体的人，并以棋术无意指出“固定牺牲会变成可预测弱点” |
 | 14 | Eleanor / Alexis × Ginny Weasley | 深化版已完成 | 从仰望、误判和救命债，到自我定义、边界与最终平视 |
 | 15 | Eleanor / Alexis × Luna Lovegood | 主框架已完成；施工密度已明确 | 不需要完全理解也可以选择彼此；低频但稳定，尊重隐私但不对现实危险视而不见 |
 | 16 | Eleanor / Alexis × Neville Longbottom | 框架待深化 | 不把 Neville 工具化为 Eleanor 的成长教材；保留其独立家庭、能力与战争成长 |
