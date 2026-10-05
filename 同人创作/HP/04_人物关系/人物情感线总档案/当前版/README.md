@@ -31,7 +31,7 @@
 | 13 | Eleanor / Alexis × Ron Weasley | 主框架已完成；核心新增棋局伏笔 | 低亲密度但长期可信；从学院标签回到具体的人，并以棋术无意指出“固定牺牲会变成可预测弱点” |
 | 14 | Eleanor / Alexis × Ginny Weasley | 深化版已完成 | 从仰望、误判和救命债，到自我定义、边界与最终平视 |
 | 15 | Eleanor / Alexis × Luna Lovegood | 主框架已完成；施工密度已明确 | 不需要完全理解也可以选择彼此；低频但稳定，尊重隐私但不对现实危险视而不见 |
-| 16 | Eleanor / Alexis × Neville Longbottom | 框架待深化 | 不把 Neville 工具化为 Eleanor 的成长教材；保留其独立家庭、能力与战争成长 |
+| 16 | Eleanor / Alexis × Neville Longbottom | 主框架已完成；世界杯与预言暗线已明确 | 从“命运的另一种可能”回到 Neville 本人；现实信任最终取代对预言与未来记忆的依赖 |
 
 ## 文件入口
 
@@ -56,6 +56,6 @@
 
 ## 来源与去重说明
 
-十关系 DOCX 本身明确列出 01—10 为“本版已完成”，并把 Weston 一家、Hermione / Ron / Ginny / Luna / Neville 标记为待讨论。GitHub 后续则新增了 Weston 主框架、五人朋友框架、Hermione 的完整友情线、Ginny 的深化版以及 Jacob / Shafiq 的技术—家族合作层。因此当前版只吸收这些相对 DOCX 新增的内容，不把旧五关系版中与 DOCX 已经一致的 Draco / Harry / Sirius 等正文再复制一遍。
+十关系 DOCX 本身明确列出 01—10 为“本版已完成”，并把 Weston 一家、Hermione / Ron / Ginny / Luna / Neville 标记为待讨论。GitHub 后续则新增了 Weston 主框架、五人朋友框架、Hermione 的完整友情线、Ron 的低亲密度朋友框架与棋局伏笔、Ginny 的深化版、Luna 的低频稳定友情框架、Neville 的预言—现实信任主框架，以及 Jacob / Shafiq 的技术—家族合作层。因此当前版只吸收这些相对 DOCX 新增的内容，不把旧五关系版中与 DOCX 已经一致的 Draco / Harry / Sirius 等正文再复制一遍。
 
 若本目录与 `08_决策记录/已确认设定.md` 冲突，仍以明确确认的设定为准。
